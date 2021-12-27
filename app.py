@@ -116,6 +116,7 @@ def check():
         }
 
         db.checking.insert_one(doc)
+
     return jsonify({'result': 'success', 'msg': '추가 완료'})
 
 
